@@ -1,9 +1,8 @@
 #mydoc : my notes and documents
 
-<h1>init local project and push to remote github repository</h1>
-<p>
+<h2>init local project and push to remote github repository</h2>
 <pre>
-	<<h2>…or create a new repository on the command line</h2>
+	<b>create a new repository on the command line</b>
 	echo "# mydoc" >> README.md
 	git init
 	git add README.md
@@ -11,7 +10,7 @@
 	git remote add origin https://github.com/hsiarock/mydoc.git
 	git push -u origin master
 
-	<h2>…or push an existing repository from the command line</h2>
+	<b>…or push an existing repository from the command line</b>
 	git remote add origin https://github.com/hsiarock/mydoc.git
 	git push -u origin master
 </pre>
