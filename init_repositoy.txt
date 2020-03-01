@@ -1,0 +1,18 @@
+
+<h2>init local project and push to remote github repository</h2>
+
+<b>create a new repository on the command line</b>
+<pre>
+	echo "# mydoc" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/hsiarock/mydoc.git
+	git push -u origin master
+</pre>
+<p>
+<b>…or push an existing repository from the command line</b>
+<pre>
+	git remote add origin https://github.com/hsiarock/mydoc.git
+	git push -u origin master
+</pre>
